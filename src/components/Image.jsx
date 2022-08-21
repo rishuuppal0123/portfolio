@@ -1,13 +1,14 @@
 import React from 'react'
 
-function Image(props) {
-    console.log(props)
+function Image(prop) {
+    console.log(prop)
+    
   return (
     <div>
         <img
-            src={props.path}
-            alt={`${props.name}`}
-            className={`${props.classes}`}
+            src={prop.path}
+            alt={`${prop.name}`}
+            className={`${prop.classes}`}
         />
     </div>
   )

@@ -41,9 +41,9 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-10 text-white bg-black fixed">
       <div style={styles.logo}>
-        <span className="text-5xl ml-2" style={styles.sidespan}> &lt;</span>
-        <h1 className="text-5xl font-signature ml-2">Rishav Uppal</h1>
-        <span className="text-5xl ml-2" style={styles.sidespan}>/&gt;</span>
+        {/* <span className="text-5xl ml-2" style={styles.sidespan}> &lt;</span> */}
+        <h1 className="text-5xl font-signature ml-2">Portfolio</h1>
+        {/* <span className="text-5xl ml-2" style={styles.sidespan}>/&gt;</span> */}
       </div>
 
       <ul className="hidden md:flex">
