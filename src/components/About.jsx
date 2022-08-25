@@ -1,4 +1,6 @@
 import React from "react";
+import Hero from "../assets/photo.jpg";
+import Image from "./Image";
 
 const About = () => {
   return (
@@ -12,23 +14,22 @@ const About = () => {
             About
           </p>
         </div>
+        <div className="max-w-screen-lg space-x-20 mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+          <div >
+            <Image classes="mrounded-xl mx-auto w- 1/3 md:w-100" name="my profile" path={Hero}/>
+          </div>
 
-        <p className="text-xl mt-20">
-          A passionate Programmer and Developer with good Problem Solving skills 
-        and ability to perform well in a team. Passionate about coding
-         and potential to develop solutions to existing real life problems.
-        </p>
-
+          <div className="flex   flex-col justify-center  h-full">
+            <p className="text-xl mt-20">
+              I am an Undergrad pursuing my Bachelors degree in CSE domain from JSS Academy of Technical Education , Noida.
+              <br/>
+              A passionate Programmer and Developer with good Problem Solving skills 
+              and ability to perform well in a team. ALong with it, I also love to draw, sketch, and play Badminton.
+            </p>
+          </div>
+        </div>
         <br />
 
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
-        </p>
       </div>
     </div>
   );
