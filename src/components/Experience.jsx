@@ -1,81 +1,103 @@
 import React from "react";
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
+import graphQl from "../assets/graphql.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import github from "../assets/github.png";
+import git from "../assets/git.png";
+import sql from "../assets/sql.jpg";
 import tailwind from "../assets/tailwind.png";
 import bootstrap from "../assets/bootstrap.png";
 import api from "../assets/api.jpg";
 import cpp from "../assets/cpp.png";
-import styles from "../index.css"
+import kotlin from "../assets/kotlin.png";
+import android from "../assets/android.png";
+import debug_test from "../assets/debug_testing.png";
+import jetpack_compose from "../assets/jetpack _compose.png";
+import styles from "../index.css";
+
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: kotlin,
+      title: "Kotlin",
+      style: "shadow-green-500",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
+      src: android,
+      title: "Android",
       style: "shadow-blue-500",
     },
     {
       id: 3,
+      src: jetpack_compose,
+      title: "Jetpack Compose",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 4,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
-      src: cpp,
-      title: "C++",
-      style: "shadow-green-500",
-    },
-
-    {
       id: 5,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-green-600",
     },
     {
       id: 6,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
+      src: cpp,
+      title: "C++",
+      style: "shadow-blue-500",
     },
 
     {
       id: 7,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
+      src: sql,
+      title: "SQL",
+      style: "shadow-gray-600",
     },
-
     {
       id: 8,
-      src: bootstrap,
-      title: "Bootstrap",
-      style: "shadow-blue-400",
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-yellow-400",
     },
 
     {
       id: 9,
+      src: git,
+      title: "Version Control: Git",
+      style: "shadow-green-400",
+    },
+    {
+      id: 10,
+      src: graphQl,
+      title: "GraphQL",
+      style: "shadow-sky-500",
+    },
+    {
+      id: 11,
+      src: debug_test,
+      title: "Debugging and Testing",
+      style: "shadow-gray-500",
+    },
+
+    {
+      id: 12,
       src: api,
-      title: "APIs",
-      style: "shadow-gray-400",
+      title: "API Integrations",
+      style: "shadow-yellow-400",
     },
   ];
-  const styles={
-    experience:{
+  const styles = {
+    experience: {
       paddingTop: "5%",
     },
-  }
+  };
   return (
     <div
       name="experience"

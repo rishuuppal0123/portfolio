@@ -27,22 +27,25 @@ const NavBar = () => {
       link: "contact",
     },
   ];
-  const styles={
-    sidespan:{
+  const styles = {
+    sidespan: {
       color: "#868e96",
     },
-    nav:{
-      zIndex:"100"
+    nav: {
+      zIndex: "100",
     },
-    logo:{
-      display:"flex",
-      flexDirection:"row",
-      alignItems:"center"
-    }
-  }
+    logo: {
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "center",
+    },
+  };
 
   return (
-    <div style={styles.nav} className=" flex justify-between items-center w-full h-20 px-10 text-white bg-black fixed">
+    <div
+      style={styles.nav}
+      className=" flex justify-between items-center w-full h-20 px-10 text-white bg-black fixed"
+    >
       <div style={styles.logo}>
         {/* <span className="text-5xl ml-2" style={styles.sidespan}> &lt;</span> */}
         <h1 className="text-5xl font-signature ml-2">Portfolio</h1>

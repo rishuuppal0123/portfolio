@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { AiOutlineInstagram } from "react-icons/ai";
-import {} from "react-icons/"
+import {} from "react-icons/";
 const SocialLinks = () => {
   const links = [
     {
@@ -42,7 +42,6 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.instagram.com/rishu_uppal28/",
-      
     },
     {
       id: 5,
@@ -51,7 +50,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://drive.google.com/file/d/1BsV1cvP_DSwPct4aq0kon4lH1q3wFnil/view?usp=sharing",
+      href: "https://docs.google.com/document/d/17KO3dDmDK6Xj-QRhD-7RxL_fbb819IP3/edit?usp=sharing&ouid=106669443558855235715&rtpof=true&sd=true",
       style: "rounded-br-md",
       download: true,
     },

@@ -15,21 +15,25 @@ const About = () => {
           </p>
         </div>
         <div className="max-w-screen-lg space-x-20 mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-          <div >
-            <Image classes="mrounded-xl mx-auto w- 1/3 md:w-100" name="my profile" path={Hero}/>
+          <div>
+            <Image
+              classes="mrounded-xl mx-auto w- 1/3 md:w-100"
+              name="my profile"
+              path={Hero}
+            />
           </div>
 
           <div className="flex   flex-col justify-center  h-full">
             <p className="text-xl mt-20">
-              I am an Undergrad pursuing my Bachelors degree in CSE domain from JSS Academy of Technical Education , Noida.
-              <br/>
-              A passionate Programmer and Developer with good Problem Solving skills 
-              and ability to perform well in a team. ALong with it, I also love to draw, sketch, and play Badminton.
+              I am a recent graduate from Computer Science domain, a keen
+              developer focussing on good user interactive products.
+              <br />A passionate Programmer and Developer with good Problem
+              Solving skills and ability to perform well in a team. ALong with
+              it, I also love to draw, sketch, and play Badminton.
             </p>
           </div>
         </div>
         <br />
-
       </div>
     </div>
   );

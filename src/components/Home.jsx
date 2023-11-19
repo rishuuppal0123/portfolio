@@ -4,7 +4,6 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import Image from "./Image";
 
-
 const Home = () => {
   return (
     <div
@@ -15,13 +14,15 @@ const Home = () => {
         <div className="flex   flex-col justify-center  h-full">
           <h4 className="text-2xl sm:text-5xl font-bold text-white">
             Hi, I am
-           
           </h4>
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-           Rishav Uppal
+            Rishav Uppal
           </h2>
           <p className="text-gray-500 flex-wrap py-4 max-w-md">
-            I am a self taught programmer, a developer, with passion to learn new and emerging technologies. I aim to build solutions to the real life problems using my coding skills. And I also love to work with the team of enthusiastic memebers with like minds.
+            I am a self taught programmer, a developer, with passion to learn
+            new and emerging technologies. I aim to build solutions to the real
+            life problems using my coding skills. And I also love to work with
+            the team of enthusiastic memebers with like minds.
           </p>
 
           <div>
@@ -40,7 +41,11 @@ const Home = () => {
         </div>
 
         <div>
-        <Image classes="mrounded-9xl mx-auto w- 1/3 md:w-80" name="my profile" path={HeroImage}/>
+          <Image
+            classes="mrounded-9xl mx-auto w- 1/3 md:w-80"
+            name="my profile"
+            path={HeroImage}
+          />
         </div>
       </div>
     </div>
