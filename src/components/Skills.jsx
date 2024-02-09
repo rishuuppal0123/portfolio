@@ -6,14 +6,12 @@ import reactImage from "../assets/react.png";
 import git from "../assets/git.png";
 import sql from "../assets/sql.jpg";
 import tailwind from "../assets/tailwind.png";
-import bootstrap from "../assets/bootstrap.png";
 import api from "../assets/api.jpg";
 import cpp from "../assets/cpp.png";
 import kotlin from "../assets/kotlin.png";
 import android from "../assets/android.png";
 import debug_test from "../assets/debug_testing.png";
 import jetpack_compose from "../assets/jetpack _compose.png";
-import styles from "../index.css";
 
 const Experience = () => {
   const techs = [
