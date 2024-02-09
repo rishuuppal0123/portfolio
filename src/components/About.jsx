@@ -28,7 +28,7 @@ const About = () => {
               I am a recent graduate from Computer Science domain, a keen
               developer focussing on good user interactive products.
               <br />A passionate Programmer and Developer with good Problem
-              Solving skills and ability to perform well in a team. ALong with
+              Solving skills and ability to perform well in a team. Along with
               it, I also love to draw, sketch, and play Badminton.
             </p>
           </div>

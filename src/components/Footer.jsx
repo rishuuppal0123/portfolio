@@ -1,21 +1,9 @@
 import React from "react";
 
 const Footer = () => {
-  const styles = {
-    foot: {
-      color: "black",
-      size: "300px",
-      backgroundColor: "white",
-    },
-  };
   return (
-    <div
-      name="footer"
-      classname="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
-    >
-      <div style={styles.foot} classname="pb-8">
-        <p>Made with ❤️ by Rishav </p>
-      </div>
+    <div className="flex justify-center items-center h-14 pb-5 bg-black bg-gradient-to-b from-gray-800 to-black text-white">
+      <p>Made with ❤️ by Rishav Uppal</p>
     </div>
   );
 };
