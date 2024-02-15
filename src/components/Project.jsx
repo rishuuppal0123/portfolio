@@ -1,9 +1,9 @@
 import React from "react";
-import tours from "../assets/portfolio/tours.jpeg";
-import scanner_app from "../assets/portfolio/scanner_app.jpg";
-import chat_app from "../assets/portfolio/chat_app.jpg";
-import crypto_app from "../assets/portfolio/crypto_app.jpg";
-import blog_app from "../assets/portfolio/blog_ss.jpg";
+import tours from "../assets/project_img/tours.jpeg";
+import scanner_app from "../assets/project_img/scanner_app.jpg";
+import chat_app from "../assets/project_img/chat_app.jpg";
+import crypto_app from "../assets/project_img/crypto_app.jpg";
+import blog_app from "../assets/project_img/blog_ss.jpg";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
