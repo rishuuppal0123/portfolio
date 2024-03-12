@@ -44,7 +44,7 @@ const NavBar = () => {
   return (
     <div
       style={styles.nav}
-      className=" flex justify-between items-center w-full h-20 px-10 text-white bg-black fixed"
+      className=" flex justify-between items-center w-full h-20 px-10 text-white bg-black fixed border-b-2"
     >
       <div style={styles.logo}>
         {/* <span className="text-5xl ml-2" style={styles.sidespan}> &lt;</span> */}
