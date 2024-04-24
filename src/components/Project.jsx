@@ -12,7 +12,7 @@ const Portfolio = () => {
       id: 1,
       src: blog_app,
       code: "https://github.com/rishuuppal0123/the_bloggers_site",
-      link: "https://sunny-cheesecake-dd6417.netlify.app",
+      link: "https://phenomenal-genie-3509f0.netlify.app",
     },
     {
       id: 2,
